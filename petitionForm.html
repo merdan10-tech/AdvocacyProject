@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petition Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <style>
+    .petition-text,
+    .form-container {
+      width: 50%;
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .form-container label {
+      text-align: center;
+      display: block;
+    }
+
+    #signatures-container {
+      float: right;
+      width: 40%;
+    }
+
+    #signatures-container p {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body style="background-color: lightyellow;">
+  <h1>Sign Our Petition <span class="speaker-icon">&#128266;</span></h1>
+
+  <p>Total Signatures: <span id="signature-count">0</span></p>
+
+  <div class="petition-text">
+    <p>
+      Imagine a young soccer enthusiast living in a community where access to soccer facilities and training is limited.
+      Or imagine a soccer-loving family with children of different ages, all sharing one pair of soccer shoes for their
+      beloved sport. The importance of equal access to soccer opportunities is evident, yet disparities persist,
+      especially for those with limited resources.
+    </p>
+
+    <p>
+      The need for digital equity in soccer has become increasingly clear. The digital divide, much like disparities in
+      soccer access, still affects many individuals, including aspiring young players and seniors who want to stay
+      connected to the sport they love. While progress has been made, there are still communities where youth,
+      low-income households, and seniors lack access to soccer training, resources, and facilities. Access to soccer
+      should be a 21st-century right, just like access to the Internet.
+    </p>
+
+    <p>
+      We invite you to join us by signing this petition in support of a Soccer Equity Bill of Rights. Together, we can
+      work towards a more equitable soccer experience for all.
+    </p>
+  </div>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="hometown">Hometown:</label>
+    <input type="text" id="hometown" name="hometown" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <button type="button" id="submit-button">Sign Now</button>
+  </form>
+
+  <div id="signatures-container"></div>
+
+
+</body>
+
+
+</html>
+
+<script src="script.js"></script>
