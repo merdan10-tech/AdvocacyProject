@@ -1,0 +1,239 @@
+body {
+  background-color: lightblue;
+  /* Set the background color to white */
+  font-family: "Times New Roman", Times, serif;
+  /* Change the font to Times New Roman */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Add to CSS file */
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+
+
+#signatures-container {
+  float: right;
+  width: 40%;
+}
+
+
+
+#signatures-container p {
+  text-align: center;
+  margin: 50px;
+}
+
+/* To make the "Name", "Hometown", "Email" be under the text*/
+.petition-text,
+.form-container {
+  width: 50%;
+  margin: 0 30px;
+  display: inline-block;
+}
+
+.petition-text {
+  margin-right: 10px;
+}
+
+.form-container {
+  margin-left: 10px;
+}
+
+.form-container label {
+  text-align: center;
+  display: block;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: red;
+  color: white;
+}
+
+
+/* Language Selector */
+
+/* Style for the language selector container */
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the world icon */
+.world-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: red;
+  position: absolute;
+  top: 0;
+
+}
+
+/* Style for the image */
+img {
+  width: 400px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin: 20px auto;
+  /* Add margin for spacing */
+  display: block;
+}
+
+
+
+/* Style for the language options list */
+.language-options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each language option */
+.language-options ul li {
+  padding: 4px 8px;
+  font-size: 16px;
+}
+
+
+/* Style for the language options wrapper */
+.language-options {
+  background-color: white;
+  /* Add background color */
+  padding: 10px;
+  /* Add padding to create space around the options */
+  border-radius: 5px;
+}
+
+
+/* Style the footer */
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Hide the language options by default */
+.language-options {
+  display: none;
+}
+
+/* Show the language options on hover */
+.language-selector:hover .language-options {
+  display: block;
+}
+
+
+
+/* Video Container */
+.video-container {
+  width: 100;
+  max-width: 300px;
+  margin: -300px 5%;
+  padding: 10px;
+  background: white;
+  border: 1px solid black;
+}
+
+/* Slogan */
+.slogan {
+  position: fixed;
+  top: 39%;
+  right: 90px;
+  /* Adjusted right margin for better positioning */
+  transform: translateY(-50%);
+  font-size: 60px;
+  color: navy;
+  font-weight: bold;
+}
+
+
+
+/* New styles for the image in the middle */
+.middle-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Adjust the height as needed */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  /* Add responsive styles here */
+}
