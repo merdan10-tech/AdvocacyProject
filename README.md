@@ -16,7 +16,7 @@ My journey with this project began approximately 7-8 weeks ago, and I am pleased
 Program walk-through:
 
 <p align="center">
-The output result: <br/>
+Web Page View: <br/>
 <img src="file:///C:/Users/Merdan%20Garlyyev/Downloads/projectPic1.png" height="80%" width="80%" alt="Web Page View"/>
 <br />
 
