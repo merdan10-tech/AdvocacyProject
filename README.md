@@ -17,6 +17,6 @@ Program walk-through:
 
 <p align="center">
 The output result: <br/>
-<img src="https://imgur.com/a/CsGh63R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/cYuLFrq" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
