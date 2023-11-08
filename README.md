@@ -17,6 +17,6 @@ Program walk-through:
 
 <p align="center">
 Web Page View: <br/>
-<img src="file:///C:/Users/Merdan%20Garlyyev/Downloads/projectPic1.png" height="80%" width="80%" alt="Web Page View"/>
+<img src="https://imgur.com/a/ioU4ZW9" height="80%" width="80%" alt="Web Page View"/>
 <br />
 
