@@ -18,7 +18,9 @@ Program walk-through:
 <p align="center">
 Web Page View: <br/>
 <img src="https://i.imgur.com/zQxOVI4.png" height="80%" width="80%" alt="Web Page View"/>
-<img src= "https://i.imgur.com/DI0Oo1Q.png" height="80%" width="80%" alt="Web Page View2"/>
+
 <br />
 
-
+<br/>
+<img src= "https://i.imgur.com/DI0Oo1Q.png" height="80%" width="80%" alt="Web Page View2"/>
+<br />
