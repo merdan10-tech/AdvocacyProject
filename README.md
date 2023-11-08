@@ -24,3 +24,7 @@ Web Page View: <br/>
 <br/>
 <img src= "https://i.imgur.com/DI0Oo1Q.png" height="80%" width="80%" alt="Web Page View2"/>
 <br />
+
+<br/>
+<img src= "https://i.imgur.com/7btWlHr.png" height="80%" width="80%" alt="Web Page View2"/>
+<br />
